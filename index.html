@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEEPX Meeting Copilot</title>
+    <meta name="description" content="공개 문서만 근거로 쓰는 미팅 브리핑 에이전트. 14일 × 1시간으로 만든 LangGraph 학습 프로젝트 기록." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/deck.css" />
+  </head>
+  <body>
+    <div class="deck-progress-track"><div class="deck-progress"></div></div>
+
+    <div class="deck-root">
+      <div class="deck-stage" aria-live="polite"></div>
+    </div>
+
+    <div class="deck-nav" aria-hidden="true">
+      <button class="deck-nav-prev" tabindex="-1">이전</button>
+      <button class="deck-nav-next" tabindex="-1">다음</button>
+    </div>
+
+    <div class="deck-hint">← → 넘기기 · O 목차</div>
+    <div class="deck-counter">01 / 01</div>
+
+    <div class="deck-overview">
+      <div class="deck-overview-head">목차 — 클릭해서 이동, ESC 로 닫기</div>
+      <div class="deck-overview-grid"></div>
+    </div>
+
+    <script type="module" src="assets/deck.js"></script>
+  </body>
+</html>
